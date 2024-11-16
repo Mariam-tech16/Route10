@@ -1,0 +1,33 @@
+:root {
+    --maincolor: white;
+    --colorone: #E9BCB9;
+    --colortwo: #ED9E59;
+    --colorthree: #A34054;
+    --colorfour: #662249;
+    --colorfive: #44174E;
+    --colorsix: #1B1031;
+}
+
+body {
+    background-color: var(--colorsix);
+}
+
+h1 {
+    color: var(--colortwo);
+    font-size: 60px;
+}
+
+p {
+    color: var(--colorthree);
+    font-size: 40px;
+}
+
+button {
+    color: var(--colorsix);
+    background-color: var(--colorone);
+    transition: all 0.3s;
+}
+
+
+button:hover{background-color: var(--colorfive);
+color:var(--colortwo)}
